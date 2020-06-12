@@ -1,0 +1,3 @@
+unsigned char br_fat32nt6_0x5fe[] = {
+    0x55, 0xaa
+};

@@ -1,0 +1,1212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ms-sys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-28 10:34-0400\n"
+"PO-Revision-Date: 2015-09-21 00:12+CEST\n"
+"Last-Translator: Jörg Jenderek <joerg.jen.der.ek@gmx.net>\n"
+"Language-Team: German \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/br.c:60
+msgid "not copy protected"
+msgstr "nicth kopiergeschützt"
+
+#: src/br.c:62
+msgid "copy protected"
+msgstr "kopiergeschützt"
+
+#: src/br.c:64
+msgid "unknown value"
+msgstr "unbekannten Wert"
+
+#: src/file.c:64
+#, c-format
+msgid "Error: contains_data called with uiLen > %d,\n"
+msgstr "Fehler: contains_data wurde aufgerufen mit uiLen > %d,\n"
+
+#: src/file.c:66
+#, c-format
+msgid "please increase MAX_DATA_LEN in file.h\n"
+msgstr "erhöhe MAX_DATA_LEN in file.h\n"
+
+#: src/identify.c:426
+#, c-format
+msgid "%s does not seem to be a disk device,\n"
+msgstr "%s scheint kein Datenträgergerät zu sein ,\n"
+
+#: src/identify.c:428 src/identify.c:438 src/identify.c:448
+#, c-format
+msgid "use the switch -f to force writing of a master boot record\n"
+msgstr ""
+"Benutze Schalter -f um Schreiben eines Master Bootrecords zu erzwingen\n"
+
+#: src/identify.c:436
+#, c-format
+msgid "%s seems to be a floppy disk device,\n"
+msgstr "%s scheint eine Diskette zu sein,\n"
+
+#: src/identify.c:446
+#, c-format
+msgid "%s seems to be a disk partition device,\n"
+msgstr "%s scheint ein partitioniertes Datenträgergerät zu sein,\n"
+
+#: src/identify.c:460
+#, c-format
+msgid "%s does not seem to be a floppy disk device,\n"
+msgstr "%s scheint keine Diskette zu sein,\n"
+
+#: src/identify.c:463 src/identify.c:474
+#, c-format
+msgid "use the switch -f to force writing of a FAT12 boot record\n"
+msgstr "Benutze Schalter -f um Schreiben eines FAT12 Bootrecords zu ezwingen\n"
+
+#: src/identify.c:471
+#, c-format
+msgid "%s does not seem to have a FAT12 file system,\n"
+msgstr "%s scheint kein FAT12 Dateisystem zu haben ,\n"
+
+#: src/identify.c:488 src/identify.c:520 src/identify.c:546 src/identify.c:572
+#, c-format
+msgid "%s does not seem to be a disk partition device,\n"
+msgstr "%s scheint kein partitioniertes Datenträgergerät zu sein,\n"
+
+#: src/identify.c:491 src/identify.c:502
+#, c-format
+msgid "use the switch -f to force writing of a FAT16 boot record\n"
+msgstr ""
+"Benutze Schalter -f um Schreiben eines FAT16 Bootrecords zu erzwingen\n"
+
+#: src/identify.c:499
+#, c-format
+msgid "%s does not seem to have a FAT16 file system,\n"
+msgstr "%s scheint kein FAT16 Dateisystem zu haben ,\n"
+
+#: src/identify.c:523 src/identify.c:534
+#, c-format
+msgid "use the switch -f to force writing of a FAT32 boot record\n"
+msgstr ""
+"Benutze Schalter -f um Schreiben eines FAT32 Bootrecords zu erzwingen\n"
+
+#: src/identify.c:531
+#, c-format
+msgid "%s does not seem to have a FAT32 file system,\n"
+msgstr "%s scheint kein FAT32 Dateisystem zu haben,\n"
+
+#: src/identify.c:549 src/identify.c:560
+#, c-format
+msgid "use the switch -f to force writing of a NTFS boot record\n"
+msgstr "Benutze Schalter -f um Schreiben eines NTFS Bootrecords zu erzwingen\n"
+
+#: src/identify.c:557
+#, c-format
+msgid "%s does not seem to have a NTFS file system,\n"
+msgstr "%s scheint kein NTFS Dateisystem zu haben,\n"
+
+#: src/identify.c:575 src/identify.c:586
+#, c-format
+msgid "use the switch -f to force writing of a EXFAT boot record\n"
+msgstr ""
+"Benutze Schalter -f um Schreiben eines EXFAT Bootrecords zu erzwingen\n"
+
+#: src/identify.c:583
+#, c-format
+msgid "%s does not seem to have a EXFAT file system,\n"
+msgstr "%s scheint kein EXFAT Dateisystem zu haben,\n"
+
+#: src/identify.c:596 src/main.c:576
+#, c-format
+msgid "Whoops, internal error, unknown boot record\n"
+msgstr "Huch, interner Fehler, unbekannnter Bootrecord\n"
+
+#: src/identify.c:610
+#, c-format
+msgid "%s has a FAT12 file system.\n"
+msgstr "%s hat ein FAT12 Dateisystem.\n"
+
+#: src/identify.c:612
+#, c-format
+msgid "%s has a FAT16 file system.\n"
+msgstr "%s hat ein FAT16 Dateisystem.\n"
+
+#: src/identify.c:614
+#, c-format
+msgid "%s has a FAT32 file system.\n"
+msgstr "%s hat ein FAT32 Dateisystem.\n"
+
+#: src/identify.c:616
+#, c-format
+msgid "%s has a NTFS file system.\n"
+msgstr "%s hat ein NTFS Dateisystem.\n"
+
+#: src/identify.c:618
+#, c-format
+msgid "%s has a EXFAT file system.\n"
+msgstr "%s hat ein EXFAT Dateisystem.\n"
+
+#: src/identify.c:620
+#, c-format
+msgid "%s has an x86 boot sector,\n"
+msgstr "%s hat einen x86 Bootsektor,\n"
+
+#: src/identify.c:623
+#, c-format
+msgid "%s has no x86 boot sector\n"
+msgstr "%s hat keinen x86 Bootsector,\n"
+
+#: src/identify.c:629
+#, c-format
+msgid "it is exactly the kind of NTFS boot record this program\n"
+msgstr "Dies ist genau die Art von NTFS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:631
+#, c-format
+msgid "would create with the switch -n on a NTFS partition.\n"
+msgstr "mit dem Schalter -n auf einer NTFS-Partition erstellen würde.\n"
+
+#: src/identify.c:636
+#, c-format
+msgid "it is exactly the kind of EXFAT NT6.0 boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von EXFAT NT6.0 Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:638
+#, c-format
+msgid "would create with the switch -x on a EXFAT partition.\n"
+msgstr "mit dem Schalter -x auf einer EXFAT-Partition erstellen würde.\n"
+
+#: src/identify.c:643
+#, c-format
+msgid "it is exactly the kind of FAT12 boot record this program\n"
+msgstr "Dies ist genau die Art von FAT12 Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:645
+#, c-format
+msgid "would create with the switch -1 on a floppy.\n"
+msgstr "mit dem Schalter -1 auf einer Diskette erstellen würde.\n"
+
+#: src/identify.c:652
+#, c-format
+msgid "it is exactly the kind of FAT16 DOS boot record this program\n"
+msgstr "Dies ist genau die Art von FAT16 DOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:654
+#, c-format
+msgid "would create with the switch -6 on a FAT16 partition.\n"
+msgstr "mit dem Schalter -6 auf einer FAT16-Partition erstellen würde.\n"
+
+#: src/identify.c:659
+#, c-format
+msgid "it is exactly the kind of FAT16 FreeDOS boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT16 FreeDOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:661
+#, c-format
+msgid "would create with the switch -5 on a FAT16 partition.\n"
+msgstr "mit dem Schalter -5 auf einer FAT16-Partition erstellen würde.\n"
+
+#: src/identify.c:666
+#, c-format
+msgid "it is exactly the kind of FAT16 ReactOS boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT16 ReactOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:668
+#, c-format
+msgid "would create with the switch -o on a FAT16 partition.\n"
+msgstr "mit dem Schalter -o auf einer FAT16-Partition erstellen würde.\n"
+
+#: src/identify.c:673
+#, c-format
+msgid "it is exactly the kind of FAT32 DOS boot record this program\n"
+msgstr "Dies ist genau die Art von FAT32 DOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:675
+#, c-format
+msgid "would create with the switch -3 on a FAT32 partition.\n"
+msgstr "mit dem Schalter -3 auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:680
+#, c-format
+msgid "it is exactly the kind of FAT32 NT5.0 boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT32 NT5.0 Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:682
+#, c-format
+msgid "would create with the switch -2 on a FAT32 partition.\n"
+msgstr "mit dem Schalter -2 auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:687
+#, c-format
+msgid "it is exactly the kind of FAT32 NT6.0 boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT32 NT6.0 Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:689
+#, c-format
+msgid "would create with the switch -8 on a FAT32 partition.\n"
+msgstr "mit dem Schalter -8 auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:694
+#, c-format
+msgid "it is exactly the kind of FAT32 PE boot record this program\n"
+msgstr "Dies ist genau die Art von FAT32 PE Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:696
+#, c-format
+msgid "would create with the switch -e on a FAT32 partition.\n"
+msgstr "mit dem Schalter -e auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:701
+#, c-format
+msgid "it is exactly the kind of FAT32 FreeDOS boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT32 FreeDOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:703
+#, c-format
+msgid "would create with the switch -4 on a FAT32 partition.\n"
+msgstr "mit dem Schalter -4 auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:708
+#, c-format
+msgid "it is exactly the kind of FAT32 ReactOS boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT32 ReactOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:710
+#, c-format
+msgid "would create with the switch -c on a FAT32 partition.\n"
+msgstr "mit dem Schalter -c auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:715
+#, c-format
+msgid "it is exactly the kind of FAT32 KolibriOS boot record this program\n"
+msgstr ""
+"Dies ist genau die Art von FAT32 KolibriOS Bootrecord, die dieses Programm\n"
+
+#: src/identify.c:717
+#, c-format
+msgid "would create with the switch -q on a FAT32 partition.\n"
+msgstr "mit dem Schalter -q auf einer FAT32-Partition erstellen würde.\n"
+
+#: src/identify.c:722
+#, c-format
+msgid "it seems to be a FAT16 or FAT32 boot record, but it\n"
+msgstr "Dies scheint ein FAT16 oder FAT32 Bootrecord zu sein, aber er\n"
+
+#: src/identify.c:724
+#, c-format
+msgid "differs from what this program would create with the\n"
+msgstr "unterscheidet sich von dem, was dieses Programm mit dem\n"
+
+#: src/identify.c:725
+#, c-format
+msgid "switch -6, -2, -8, -e or -3 on a FAT16 or FAT32 partition.\n"
+msgstr ""
+"Schalter -6 , -2, -8, -e oder -3 auf einer FAT16 oder FAT32-Partition "
+"erstellen würde.\n"
+
+#: src/identify.c:730
+#, c-format
+msgid "it seems to be a EXFAT boot record, but it differs from\n"
+msgstr ""
+"Dies scheint ein EXFAT Bootrecord zu sein, aber er unterscheidet sich von\n"
+
+#: src/identify.c:731
+#, c-format
+msgid "what this program would create with the switch -x on a\n"
+msgstr "dem, was dieses Programm mit dem Schalter -x auf einer\n"
+
+#: src/identify.c:732
+#, c-format
+msgid "EXFAT partition.\n"
+msgstr "EXFAT-Partition erstellen würde.\n"
+
+#: src/identify.c:736
+#, c-format
+msgid "it seems to be a LILO boot record, please use lilo to\n"
+msgstr "Dies scheint ein LILO Bootrecord zu sein, benutze lilo zum\n"
+
+#: src/identify.c:737
+#, c-format
+msgid "create such boot records.\n"
+msgstr "Erzeugen eines solchen Bootrecords.\n"
+
+#: src/identify.c:742
+#, c-format
+msgid "it is a Microsoft DOS/NT/95A master boot record, like the one this\n"
+msgstr "dies ist ein Microsoft DOS/NT/95A Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:744 src/identify.c:756
+#, c-format
+msgid "program creates with the switch -d on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -d.\n"
+
+#: src/identify.c:746 src/identify.c:758 src/identify.c:768 src/identify.c:778
+#: src/identify.c:788 src/identify.c:798 src/identify.c:808 src/identify.c:818
+#: src/identify.c:828 src/identify.c:838 src/identify.c:848 src/identify.c:858
+#: src/identify.c:868
+#, c-format
+msgid "It has windows disk signature 0x%08x.\n"
+msgstr "Es hat Windows Platten-Signatur 0x%08x.\n"
+
+#: src/identify.c:752
+#, c-format
+msgid "it is a Microsoft DOS/NT/95A master boot record with the undocumented\n"
+msgstr ""
+"dies ist ein Microsoft DOS/NT/95A Master-Bootrecord mit den undokmentierten\n"
+
+#: src/identify.c:754
+#, c-format
+msgid "F2 instruction. You will get equal functionality with the MBR this\n"
+msgstr ""
+"F2 Instruktionen. Sie werden die gleiche Funktionalität mit dem MBR "
+"erhalten, den dieses\n"
+
+#: src/identify.c:764
+#, c-format
+msgid ""
+"it is a Microsoft 95B/98/98SE/ME master boot record, like the one this\n"
+msgstr ""
+"dies ist ein Microsoft 95B/98/98SE/ME Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:766
+#, c-format
+msgid "program creates with the switch -9 on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -9.\n"
+
+#: src/identify.c:774
+#, c-format
+msgid "it is a Microsoft 2000/XP/2003 master boot record, like the one this\n"
+msgstr ""
+"dies ist ein Microsoft 2000/XP/2003 Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:776
+#, c-format
+msgid "program creates with the switch -m on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -m.\n"
+
+#: src/identify.c:784
+#, c-format
+msgid "it is a Microsoft Vista master boot record, like the one this\n"
+msgstr "dies ist ein Microsoft Vista Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:786
+#, c-format
+msgid "program creates with the switch -i on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -i.\n"
+
+#: src/identify.c:794
+#, c-format
+msgid "it is a Microsoft 7 master boot record, like the one this\n"
+msgstr "dies ist ein Microsoft Windows 7 Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:796
+#, c-format
+msgid "program creates with the switch -7 on a hard disk device.\n"
+msgstr "Programm auf einer Festplatten erstellt mit dem Schalter -7.\n"
+
+#: src/identify.c:804
+#, c-format
+msgid "it is a public domain syslinux master boot record, like the one this\n"
+msgstr ""
+"dies ist ein Public Domain Syslinux Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:806
+#, c-format
+msgid "program creates with the switch -s on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -s.\n"
+
+#: src/identify.c:814
+#, c-format
+msgid "it is a GPL syslinux GPT master boot record, like the one this\n"
+msgstr "dies ist ein GPL Syslinux Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:816
+#, c-format
+msgid "program creates with the switch -t on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -t.\n"
+
+#: src/identify.c:824
+#, c-format
+msgid "it is a Rufus master boot record, like the one this\n"
+msgstr "dies ist ein Rufus Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:826
+#, c-format
+msgid "program creates with the switch -r on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -r.\n"
+
+#: src/identify.c:834
+#, c-format
+msgid "it is a ReactOS master boot record, like the one this\n"
+msgstr "dies ist ein ReactOS Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:836
+#, c-format
+msgid "program creates with the switch -a on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -a.\n"
+
+#: src/identify.c:844
+#, c-format
+msgid "it is a KolibriOS master boot record, like the one this\n"
+msgstr "dies ist ein KolibriOS Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:846
+#, c-format
+msgid "program creates with the switch -k on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -k.\n"
+
+#: src/identify.c:854
+#, c-format
+msgid "it is a Grub4DOS master boot record, like the one this\n"
+msgstr "dies ist ein Grub4DOS Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:856
+#, c-format
+msgid "program creates with the switch -g on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -g.\n"
+
+#: src/identify.c:864
+#, c-format
+msgid "it is a GRUB 2 master boot record, like the one this\n"
+msgstr "dies ist ein GRUB 2 Master-Bootrecord, wie ihn dieses\n"
+
+#: src/identify.c:866
+#, c-format
+msgid "program creates with the switch -b on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -b.\n"
+
+#: src/identify.c:874
+#, c-format
+msgid "it is a zeroed non-bootable master boot record, like the one this\n"
+msgstr ""
+"dies ist ein ausgenullter, nicht bootfähiger Master-Bootrecord, wie ihn "
+"dieses\n"
+
+#: src/identify.c:876
+#, c-format
+msgid "program creates with the switch -z on a hard disk device.\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -z.\n"
+
+#: src/identify.c:881
+#, c-format
+msgid "it is a non-bootable master boot record, almost like the one this\n"
+msgstr ""
+"dies ist ein nicht bootfähiger Master-Bootrecord, fast wie ihn dieses\n"
+
+#: src/identify.c:883
+#, c-format
+msgid "program creates with the switch -z on a hard disk device but\n"
+msgstr "Programm auf einer Festplatte erstellt mit dem Schalter -z aber\n"
+
+#: src/identify.c:885
+#, c-format
+msgid "with windows disk signature 0x%08x\n"
+msgstr "mit Windows Platten-Signatur 0x%08x\n"
+
+#: src/identify.c:888
+#, c-format
+msgid "which this program can write with switch -S and copy protect\n"
+msgstr "die diese Programm kann mit Schalter -S schreiben und Kopierschutz\n"
+
+#: src/identify.c:890
+#, c-format
+msgid "bytes 0x%04x (%s).\n"
+msgstr "bytes 0x%04x (%s).\n"
+
+#: src/identify.c:895
+#, c-format
+msgid "it is an unknown boot record\n"
+msgstr "dies ist ein unbekannter Bootrecord\n"
+
+#: src/identify.c:898
+#, c-format
+msgid "The OEM ID is %s\n"
+msgstr "Das OEM ID ist %s\n"
+
+#: src/main.c:80
+#, c-format
+msgid "Unable to open %s, %s\n"
+msgstr "Kann %s nicht öffnen, %s\n"
+
+#: src/main.c:91
+#, c-format
+msgid "Unable to automaticly select boot record for %s\n"
+msgstr "Kann nicht automatisch Bootrecord auswählen für %s\n"
+
+#: src/main.c:124
+#, c-format
+msgid "Failed writing partition information to %s\n"
+msgstr "Fehler beim Schreiben von Partitionsinformationen auf %s\n"
+
+#: src/main.c:125
+#, fuzzy, c-format
+msgid "Device must be formatted as FAT16, FAT32, EXFAT or NTFS\n"
+msgstr "Das GerŠt muss als FAT16, FAT32 oder EXFAT formatiert sein\n"
+
+#: src/main.c:136
+#, c-format
+msgid "Start sector %ld (nr of hidden sectors) successfully written to %s\n"
+msgstr "Startsektor %ld (Anzahl versteckter Sektoren) geschrieben auf %s\n"
+
+#: src/main.c:147
+#, c-format
+msgid "Number of heads (%d) successfully written to %s\n"
+msgstr "Anzahl der Köpfe (%d) geschrieben auf %s\n"
+
+#: src/main.c:153
+#, c-format
+msgid "Failed writing number of heads to %s\n"
+msgstr "Fehler beim Schreiben der Anzahl der Köpfe nach %s\n"
+
+#: src/main.c:161 src/main.c:174 src/main.c:187
+#, c-format
+msgid "Physical disk drive id 0x80 (C:) successfully written to %s\n"
+msgstr "Physikalische Laufwerkskennung 0x80 (C:) geschrieben nach %s\n"
+
+#: src/main.c:166 src/main.c:179 src/main.c:192
+#, c-format
+msgid "Failed writing physical disk drive id to %s\n"
+msgstr "Fehler beim Schreiben der physikalischen Laufwerkskennung nach %s\n"
+
+#: src/main.c:198 src/main.c:485
+#, c-format
+msgid "EXFAT VBR checksum successfully written to %s\n"
+msgstr "EXFAT VBR-PrŸfsumme geschrieben auf %s\n"
+
+#: src/main.c:202 src/main.c:489
+#, c-format
+msgid "Failed writing EXFAT VBR checksum to %s\n"
+msgstr "Fehler beim Schreiben des EXFAT VBR-PrŸfsumme auf %s\n"
+
+#: src/main.c:210
+#, c-format
+msgid "Failed writing start sector to %s, this is only possible to do with\n"
+msgstr ""
+"Fehler beim Schreiben des Startsektors auf %s, dies ist nur möglich mit\n"
+
+#: src/main.c:212
+#, c-format
+msgid "real partitions!\n"
+msgstr "echten Partitionen!\n"
+
+#: src/main.c:229
+#, c-format
+msgid "Windows 7 master boot record successfully written to %s\n"
+msgstr "Windows 7 Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:233
+#, c-format
+msgid "Failed writing Windows 7 master boot record to %s\n"
+msgstr "Fehler beim Schreiben des Windows 7 Master-Bootrecords auf %s\n"
+
+#: src/main.c:242
+#, c-format
+msgid "Windows Vista master boot record successfully written to %s\n"
+msgstr "Windows Vista Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:246
+#, c-format
+msgid "Failed writing Windows Vista master boot record to %s\n"
+msgstr "Fehler beim Schreiben des Windows Vista Master-Bootrecords auf %s\n"
+
+#: src/main.c:255
+#, c-format
+msgid "Windows 2000/XP/2003 master boot record successfully written to %s\n"
+msgstr "Windows 2000/XP/2003 Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:259
+#, c-format
+msgid "Failed writing Windows 2000/XP/2003 master boot record to %s\n"
+msgstr ""
+"Fehler beim Schreiben des Windows 2000/XP/2003 Master-Bootrecords auf %s\n"
+
+#: src/main.c:268
+#, c-format
+msgid "Windows 95B/98/98SE/ME master boot record successfully written to %s\n"
+msgstr "Windows 95B/98/98SE/ME Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:272
+#, c-format
+msgid "Failed writing Windows 95B/98/98SE/ME master boot record to %s\n"
+msgstr ""
+"Fehler beim Schreiben des Windows 95B/98/98SE/ME Master-Bootrecords auf %s\n"
+
+#: src/main.c:281
+#, c-format
+msgid "DOS/Windows NT master boot record successfully written to %s\n"
+msgstr "DOS/Windows NT Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:285
+#, c-format
+msgid "Failed writing DOS/Windows NT master boot record to %s\n"
+msgstr "Fehler beim Schreiben des DOS/Windows NT Master-Bootrecords auf %s\n"
+
+#: src/main.c:294
+#, c-format
+msgid "Syslinux master boot record successfully written to %s\n"
+msgstr "Syslinux Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:298
+#, c-format
+msgid "Failed writing Syslinux master boot record to %s\n"
+msgstr "Fehler beim Schreiben des Syslinux Master-Bootrecords auf %s\n"
+
+#: src/main.c:307
+#, c-format
+msgid "Syslinux GPT master boot record successfully written to %s\n"
+msgstr "Syslinux GPT Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:311
+#, c-format
+msgid "Failed writing Syslinux GPT master boot record to %s\n"
+msgstr "Fehler beim Schreiben des Syslinux GPT Master-Bootrecords auf %s\n"
+
+#: src/main.c:320
+#, c-format
+msgid "Rufus master boot record successfully written to %s\n"
+msgstr "Rufus Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:324
+#, c-format
+msgid "Failed writing Rufus master boot record to %s\n"
+msgstr "Fehler beim Schreiben des Rufus Master-Bootrecords auf %s\n"
+
+#: src/main.c:333
+#, c-format
+msgid "ReactOS master boot record successfully written to %s\n"
+msgstr "ReactOS Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:337
+#, c-format
+msgid "Failed writing ReactOS master boot record to %s\n"
+msgstr "Fehler beim Schreiben des ReactOS Master-Bootrecords auf %s\n"
+
+#: src/main.c:346
+#, c-format
+msgid "KolibriOS master boot record successfully written to %s\n"
+msgstr "KolibriOS Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:350
+#, c-format
+msgid "Failed writing KolibriOS master boot record to %s\n"
+msgstr "Fehler beim Schreiben des KolibriOS Master-Bootrecords auf %s\n"
+
+#: src/main.c:359
+#, c-format
+msgid "Grub4DOS master boot record successfully written to %s\n"
+msgstr "Grub4DOS Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:363
+#, c-format
+msgid "Failed writing Grub4DOS master boot record to %s\n"
+msgstr "Fehler beim Schreiben des Grub4DOS Master-Bootrecords auf %s\n"
+
+#: src/main.c:372
+#, c-format
+msgid "GRUB 2 master boot record successfully written to %s\n"
+msgstr "GRUB 2 Master-Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:376
+#, c-format
+msgid "Failed writing GRUB2 master boot record to %s\n"
+msgstr "Fehler beim Schreiben des GRUB 2 Master-Bootrecords auf %s\n"
+
+#: src/main.c:385
+#, c-format
+msgid "Empty (zeroed) master boot record successfully written to %s\n"
+msgstr "leerer (augenullter) Master Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:389
+#, c-format
+msgid "Failed writing empty (zeroed) master boot record to %s\n"
+msgstr ""
+"Fehler beim Schreiben des leeren (augenullten) Master-Bootrecords auf %s\n"
+
+#: src/main.c:398
+#, c-format
+msgid "FAT12 boot record successfully written to %s\n"
+msgstr "FAT12 Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:402
+#, c-format
+msgid "Failed writing FAT12 boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT12 Bootrecords auf %s\n"
+
+#: src/main.c:411
+#, c-format
+msgid "FAT16 boot record successfully written to %s\n"
+msgstr "FAT16 Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:415
+#, c-format
+msgid "Failed writing FAT16 boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT16 Bootrecords auf %s\n"
+
+#: src/main.c:424
+#, c-format
+msgid "FAT16 FreeDOS boot record successfully written to %s\n"
+msgstr "FAT16 FreeDOS Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:428
+#, c-format
+msgid "Failed writing FAT16 FreeDOS boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT16 FreeDOS Bootrecords auf %s\n"
+
+#: src/main.c:437
+#, c-format
+msgid "FAT16 ReactOS boot record successfully written to %s\n"
+msgstr "FAT16 ReactOS Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:441
+#, c-format
+msgid "Failed writing FAT16 ReactOS boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT16 ReactOS Bootrecords auf %s\n"
+
+#: src/main.c:450
+#, c-format
+msgid "FAT32 NT5.0 boot record successfully written to %s\n"
+msgstr "FAT32 NT5.0 Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:454
+#, c-format
+msgid "Failed writing FAT32 NT5.0 boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 NT5.0 Bootrecords auf %s\n"
+
+#: src/main.c:463
+#, c-format
+msgid "FAT32 NT6.0 boot record successfully written to %s\n"
+msgstr "FAT32 NT6.0 Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:467
+#, c-format
+msgid "Failed writing FAT32 NT6.0 boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 NT6.0 Bootrecords auf %s\n"
+
+#: src/main.c:476
+#, c-format
+msgid "EXFAT NT6.0 boot record successfully written to %s\n"
+msgstr "EXFAT NT6.0 Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:480
+#, c-format
+msgid "Failed writing EXFAT NT6.0 boot record to %s\n"
+msgstr "Fehler beim Schreiben des EXFAT NT6.0 Bootrecords auf %s\n"
+
+#: src/main.c:498
+#, c-format
+msgid "FAT32 PE boot record successfully written to %s\n"
+msgstr "FAT32 PE Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:502
+#, c-format
+msgid "Failed writing FAT32 PE boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 PE Bootrecords auf %s\n"
+
+#: src/main.c:511
+#, c-format
+msgid "FAT32 FreeDOS boot record successfully written to %s\n"
+msgstr "FAT32 FreeDOS Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:515
+#, c-format
+msgid "Failed writing FAT32 FreeDOS boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 FreeDOS Bootrecords auf %s\n"
+
+#: src/main.c:525
+#, c-format
+msgid "FAT32 KolibriOS boot record successfully written to %s\n"
+msgstr "FAT32 KolibriOS Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:529
+#, c-format
+msgid "Failed writing FAT32 KolibriOS boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 KolibriOS Bootrecords auf %s\n"
+
+#: src/main.c:538
+#, c-format
+msgid "FAT32 ReactOS boot record successfully written to %s\n"
+msgstr "FAT32 ReactOS Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:542
+#, c-format
+msgid "Failed writing FAT32 ReactOS boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 ReactOS Bootrecords auf %s\n"
+
+#: src/main.c:551
+#, c-format
+msgid "FAT32 DOS boot record successfully written to %s\n"
+msgstr "FAT32 DOS Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:555
+#, c-format
+msgid "Failed writing FAT32 DOS boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 DOS Bootrecords auf %s\n"
+
+#: src/main.c:564
+#, c-format
+msgid "NTFS Windows 7 boot record successfully written to %s\n"
+msgstr "NTFS Windows 7 Bootrecord geschrieben auf %s\n"
+
+#: src/main.c:568
+#, c-format
+msgid "Failed writing NTFS Windows 7 boot record to %s\n"
+msgstr "Fehler beim Schreiben des NTFS Windows 7 Bootrecords auf %s\n"
+
+#: src/main.c:583
+#, c-format
+msgid "OEM ID '%s' successfully written to %s\n"
+msgstr "OEM ID '%s' geschrieben auf %s\n"
+
+#: src/main.c:587
+#, c-format
+msgid "Failed writing OEM ID to %s\n"
+msgstr "Fehler beim Schreiben des OEM ID auf %s\n"
+
+#: src/main.c:595
+#, c-format
+msgid "Windows Disk Signature 0x%08x successfully written to %s\n"
+msgstr "Windows Platten-Signatur 0x%08x geschrieben auf %s\n"
+
+#: src/main.c:599
+#, c-format
+msgid "Failed writing Windows Disk Signature to %s\n"
+msgstr "Fehler beim Schreiben des Windows Platten-Signatur auf %s\n"
+
+#: src/main.c:610
+#, c-format
+msgid ""
+"Usage:\n"
+"\t%s [options] [device]\n"
+"Options:\n"
+msgstr ""
+"Aufruf:\n"
+"\t%s [Optionen] [Gerät]\n"
+"Optionen:\n"
+
+#: src/main.c:612
+#, c-format
+msgid "    -1, --fat12     Write a FAT12 floppy boot record to device\n"
+msgstr ""
+"    -1, --fat12     Schreibt einen FAT12 Disketten Bootrecord auf Gerät\n"
+
+#: src/main.c:614
+#, fuzzy, c-format
+msgid ""
+"    -2, --fat32nt5  Write a FAT32 partition NT5.0 boot record to device\n"
+msgstr ""
+"    -2, --fat32nt5   Schreibt einen FAT32 Partition NT5.0 Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:616
+#, fuzzy, c-format
+msgid ""
+"    -8, --fat32nt6  Write a FAT32 partition NT6.0 boot record to device\n"
+msgstr ""
+"    -8, --fat32nt6   Schreibt einen FAT32 Partition NT6.0 Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:618
+#, fuzzy, c-format
+msgid ""
+"    -x, --exfatnt6  Write a EXFAT partition NT6.0 boot record to device\n"
+msgstr ""
+"    -x, --exfatnt   Schreibt einen EXFAT Partition NT6.0 Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:620
+#, c-format
+msgid "    -e, --fat32pe   Write a FAT32 partition PE boot record to device\n"
+msgstr ""
+"    -e, --fat32pe   Schreibt einen FAT32 Partition PE Bootrecord auf Gerät\n"
+
+#: src/main.c:622
+#, c-format
+msgid "    -3, --fat32     Write a FAT32 partition DOS boot record to device\n"
+msgstr ""
+"    -3, --fat32     Schreibt einen FAT32 Partition DOS Bootrecord auf Gerät\n"
+
+#: src/main.c:624
+#, c-format
+msgid ""
+"    -4, --fat32free Write a FAT32 partition FreeDOS boot record to device\n"
+msgstr ""
+"    -4, --fat32free Schreibt einen FAT32 Partition FreeDOS Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:626
+#, c-format
+msgid ""
+"    -5, --fat16free Write a FAT16 partition FreeDOS boot record to device\n"
+msgstr ""
+"    -5, --fat16free Schreibt einen FAT16 Partition FreeDOS Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:628
+#, c-format
+msgid "    -6, --fat16     Write a FAT16 partition DOS boot record to device\n"
+msgstr ""
+"    -6, --fat16     Schreibt einen FAT16 Partition DOS Bootrecord auf Gerät\n"
+
+#: src/main.c:630
+#, c-format
+msgid ""
+"    -n, --ntfs      Write a NTFS partition Windows 7 boot record to device\n"
+msgstr ""
+"    -n, --ntfs      Schreibt einen NTFS partition Windows 7 Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:632
+#, c-format
+msgid ""
+"    -o, --fat16ros  Write a FAT16 partition ReactOS boot record to device\n"
+msgstr ""
+"    -o, --fat16ros  Schreibt einen FAT16 partition ReactOS Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:634
+#, c-format
+msgid ""
+"    -c, --fat32ros  Write a FAT32 partition ReactOS boot record to device\n"
+msgstr ""
+"    -c, --fat32ros  Schreibt einen FAT32 partition ReactOS Bootrecord auf "
+"Gerät\n"
+
+#: src/main.c:636
+#, c-format
+msgid ""
+"    -q, --fat32kos  Write a FAT32 partition KolibriOS boot record to device\n"
+msgstr ""
+"    -q, --fat32kos  Schreibt einen FAT32 partition KolibriOS Bootrecord auf\n"
+"                    Gerät\n"
+
+#: src/main.c:638
+#, c-format
+msgid "    -l, --wipelabel Reset partition disk label in boot record\n"
+msgstr "    -l, --wipelabel Entfernt Partition Volumenlabel im Bootrecord\n"
+
+#: src/main.c:640
+#, c-format
+msgid ""
+"    -p, --partition Write partition info (hidden sectors, heads and drive "
+"id)\n"
+msgstr ""
+"    -p, --partition Schreibt Partitions-Info (versteckte Sektoren, Köpfe "
+"und\n"
+
+#: src/main.c:642
+#, c-format
+msgid "                    to boot record\n"
+msgstr "                    Laufwerkskennung) in Bootrecord\n"
+
+#: src/main.c:644
+#, c-format
+msgid ""
+"    -H, --heads <n> Manually set number of heads if partition info is "
+"written\n"
+msgstr ""
+"    -H, --heads <n> Anzahl der Köpfe, wenn Partition-Info geschrieben wird\n"
+
+#: src/main.c:646
+#, c-format
+msgid ""
+"    -B, --bps <n>   Manually set number of bytes per sector (default 512)\n"
+msgstr ""
+"    -B, --bps <n>   Manuell eingestellt Anzahl von Bytes pro Sektor (std "
+"512)\n"
+
+#: src/main.c:648
+#, c-format
+msgid "    -O, --writeoem <s>   Write OEM ID string <s> to file system\n"
+msgstr "    -O, --writeoem <s>   Schreibt OEM ID string <s> zum Dateisystem\n"
+
+#: src/main.c:650
+#, c-format
+msgid ""
+"    -S, --writewds <x>   Write Windows Disk Signature hexadecimal <x> to "
+"MBR\n"
+msgstr ""
+"    -S, --writewds <x>   Schreibt Windows Platten-Signatur hexadezimal <x> "
+"zum\n"
+"                         MBR\n"
+
+#: src/main.c:652
+#, c-format
+msgid "    -7, --mbr7      Write a Windows 7 MBR to device\n"
+msgstr "    -7, --mbr7      Schreibt einen Windows 7 MBR auf Gerät\n"
+
+#: src/main.c:654
+#, c-format
+msgid "    -i, --mbrvista  Write a Windows Vista MBR to device\n"
+msgstr "    -i, --mbrvista  Schreibt einen Windows Vista MBR auf Gerät\n"
+
+#: src/main.c:656
+#, c-format
+msgid "    -m, --mbr       Write a Windows 2000/XP/2003 MBR to device\n"
+msgstr ""
+"    -m, --mbr       Schreibt einen Windows 2000/XP/2003 MBR auf Gerät\n"
+
+#: src/main.c:658
+#, c-format
+msgid "    -9, --mbr95b    Write a Windows 95B/98/98SE/ME MBR to device\n"
+msgstr ""
+"    -9, --mbr95b    Schreibt einen Windows 95B/98/98SE/ME MBR auf Gerät\n"
+
+#: src/main.c:660
+#, c-format
+msgid "    -d, --mbrdos    Write a DOS/Windows NT MBR to device\n"
+msgstr "    -d, --mbrdos    schreibt einen DOS/Windows NT MBR auf Gerät\n"
+
+#: src/main.c:662
+#, c-format
+msgid "    -s, --mbrsyslinux    Write a Syslinux MBR to device\n"
+msgstr "    -s, --mbrsyslinux    Schreibt einen Syslinux MBR auf Gerät\n"
+
+#: src/main.c:664
+#, c-format
+msgid "    -t, --mbrgptsyslinux Write a Syslinux GPT MBR to device\n"
+msgstr "    -t, --mbrgptsyslinux Schreibt einen Syslinux GPT MBR auf Gerät\n"
+
+#: src/main.c:666
+#, c-format
+msgid "    -a, --mbrreactos     Write a ReactOS MBR to device\n"
+msgstr "    -a, --mbrreactos     Schreibt einen ReactOS MBR auf Gerät\n"
+
+#: src/main.c:668
+#, c-format
+msgid "    -k, --mbrkolibrios   Write a KolibriOS MBR to device\n"
+msgstr "    -k, --mbrkolibrios   Schreibt einen KolibriOS MBR auf Gerät\n"
+
+#: src/main.c:670
+#, c-format
+msgid "    -r, --mbrrufus  Write a Rufus MBR to device\n"
+msgstr "    -r, --mbrrufus  Schreibt einen Rufus MBR auf Gerät\n"
+
+#: src/main.c:672
+#, c-format
+msgid "    -g, --mbrgrub4dos    Write a Grub4Dos MBR to device\n"
+msgstr "    -g, --mbrgrub4dos    Schreibt einen Grub4Dos MBR auf Gerät\n"
+
+#: src/main.c:674
+#, c-format
+msgid "    -b, --mbrgrub2  Write a Grub 2 MBR to device\n"
+msgstr "    -b, --mbrgrub2  Schreibt einen Grub 2 MBR auf Gerät\n"
+
+#: src/main.c:676
+#, c-format
+msgid "    -z, --mbrzero   Write an empty (zeroed) MBR to device\n"
+msgstr "    -z, --mbrzero   Schreibt ein leeren (augenullten) MBR auf Gerät\n"
+
+#: src/main.c:678
+#, c-format
+msgid "    -f, --force     Force writing of boot record\n"
+msgstr "    -f, --force     Schreiben des Bootrecords erzwingen\n"
+
+#: src/main.c:680
+#, c-format
+msgid "    -h, --help      Display this help and exit\n"
+msgstr "    -h, --help      Zeigt diese Hilfe und das Programm beenden\n"
+
+#: src/main.c:682
+#, c-format
+msgid "    -v, --version   Show program version\n"
+msgstr "    -v, --version   Zeigt Programmversion\n"
+
+#: src/main.c:684
+#, c-format
+msgid ""
+"    -w, --write     Write automatically selected boot record to device\n"
+"\n"
+msgstr ""
+"    -w, --write     Schreibt automatisch gewählten Bootrecord auf Gerät\n"
+"\n"
+
+#: src/main.c:686
+#, c-format
+msgid ""
+"    Default         Inspect current boot record\n"
+"\n"
+msgstr ""
+"    Untersuche aktuellen Bootrecord\n"
+"\n"
+
+#: src/main.c:688
+#, c-format
+msgid "Warning: Writing the wrong kind of boot record to a device might\n"
+msgstr ""
+"Warnung: Schreiben der falschen Art von Bootrecord auf ein Gerät könnte\n"
+
+#: src/main.c:690
+#, c-format
+msgid ""
+"destroy partition information or file system!\n"
+"\n"
+msgstr ""
+"Partitionsinformation oder Dateisystem zerstören!\n"
+"\n"
+
+#: src/main.c:695
+#, c-format
+msgid "ms-sys version %s\n"
+msgstr ""
+
+# msgid "ms-sys version %s\n"
+# msgstr ""
+#: src/main.c:696
+#, c-format
+msgid ""
+"Written by Henrik Carlqvist\n"
+"\n"
+msgstr ""
+"Geschrieben von Henrik Carlqvist\n"
+"\n"
+
+#: src/main.c:697
+#, c-format
+msgid "Copyright (C) 2009-2016 Free Software Foundation, Inc.\n"
+msgstr "Copyright (C) 2009-2016 Free Software Foundation, Inc.\n"
+
+#: src/main.c:698
+#, c-format
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO\n"
+msgstr ""
+"Dies ist freie Software; Sehen sie in den Quellen für die Kopierbedingungen. "
+"Es gibt KEINE\n"
+
+#: src/main.c:699
+#, c-format
+msgid ""
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+"\n"
+msgstr ""
+"Garantie; auch nicht für VERKAUFBARKEIT oder FÜR EINEN BESTIMMTEN ZWECK\n"
+"\n"
+
+#: src/oem_id.c:67
+#, c-format
+msgid "%s does not seem to be a floppy or disk partition device,\n"
+msgstr ""
+"%s scheint keine Diskette oder partitioniertes Datenträgergerät zu sein,\n"
+
+#: src/oem_id.c:72
+#, c-format
+msgid "%s does not seem to have a FAT file system,\n"
+msgstr "%s scheint kein FAT Dateisystem zu haben,\n"
+
+#: src/oem_id.c:75
+#, c-format
+msgid "use the switch -f to force writing of OEM ID\n"
+msgstr "Benutze Schalter -f um Schreiben OEM ID zu erzwingen\n"

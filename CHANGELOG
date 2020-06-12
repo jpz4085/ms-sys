@@ -1,0 +1,113 @@
+Date       Version  Comment
+---------------------------------------------------------------------------
+28/4  2020 2.6.2    Improved partition device and start sector detection on
+                    FreeBSD. Implemented full support for OpenBSD by adding
+                    missing code for disk and partition information detection
+                    and enabled smart select which wasn't functional.
+
+19/4  2020 2.6.1    Added support to run on macOS/OS X
+                    Added NT6.0 FAT32 boot record (Win7/8/10)
+                    Added NT6.0 EXFAT boot record (Win8/10)
+                    Updated partition information feature for EXFAT and
+                    NTFS and also enabled missing FAT16 support.
+                    Added X/Open7 POSIX.1-2008 definition to prevent
+                    compile warnings in identify.c and exfat.c source
+                    code caused by the fileno function.
+                    Removed support to alter OEM ID of NTFS boot records
+                    since this makes for an unmountable partition.
+                    Fixed error in Makefile where debug build didn't work.
+                    Changed Makefile to support install on Mac/BSD/Linux.
+                    Updated french, german and swedish man pages.
+                    Updated french, german and swedish po files.
+
+17/3  2019 2.6.0    No changes, only marked as stable version.
+
+27/2  2016 2.5.3    Added french man page and translation.
+
+16/1  2016 2.5.2    Added german man page,
+                    added support for Grub2 and Grub4Dos MBR,
+                    added support for KolibriOS MBR and FAT32 boot record,
+                    added support for ReactOS MBR, FAT32 and FAT16 BR,
+                    added support for Rufus MBR,
+                    added experimental support for large sectors ( > 512),
+                    now possible to alter OEM ID of FAT and NTFS boot records.
+                    now possible to alter Windows Disk Signature in MBR.
+
+26/9  2015 2.5.1    Added support to run on OpenBSD,
+                    added german translation.
+
+ 5/1  2015 2.5.0    Added support to run on FreeBSD.
+
+ 1/1  2015 2.4.1    Added support for FAT32 PE boot record.
+
+24/5  2014 2.4.0    Added support for syslinux GPT MBR.
+                    Updated syslinux mbr to version 6.02.
+
+ 1/4  2012 2.3.0    Added experimental support for NTFS boot record. This
+                    functionality is mostly useful to identify Windows 7 NTFS
+                    boot records. Writing an NTFS Windows 7 boot record will
+                    most likely not be of much use.
+
+22/1  2011 2.2.1    Modified Makefile to recreate directories lost by CVS
+                    Now also doing a sanity check before only writing BPB
+
+13/5  2010 2.2.0    Added support for large disk image files. This version
+                    is now considered stable as the BPB problem has had a
+                    workaround since version 2.1.5.
+
+14/3  2010 2.1.5    Added support for manually setting the number of heads
+                    in BPB
+
+3/10  2009 2.1.4    Win 7 and Vista MBR added
+                    Added copyright notice to source files
+
+30/12 2007 2.1.3    Makefile now supports DESTDIR
+
+20/11 2005 2.1.2    Corrected spelling of Gürkan Sengün in man-page and
+                    CONTRIBUTORS file.
+                    Added a FAQ.
+                    Renamed sv_SE.po to sv.po to fix bug described at
+                    http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=336813
+                    FreeDOS FAT16 and FAT32 boot records added.
+
+3/8  2005  2.1.1    Now the -p switch also writes the number of heads in BPB.
+                    Modified Makefile to work with newer version of gcc.
+                    Unfortunately it no longer works with older versions of 
+                    gcc as the output from the switch -MM has changed.
+
+26/6 2005  2.1.0    Now ms-sys is able to identify an ms-dos MBR with the
+                    undocumented F2 instruction.
+                    Fixed bug in Makefile which make Makefile fail to install
+                    files unless target directories already exists.
+
+5/6  2004  2.0.0    Now ms-sys should compile cleanly also with a 2.6 Linux
+                    kernel based distribution.
+
+21/3 2004  1.1.3    Added switch -p to write needed partition information
+                    which might be missing when some format programs are
+                    used. The program now supports command line switch
+                    concatenation, i e "ms-sys -f2 file" instead of
+                    "ms-sys -f -2 file".
+
+16/2 2004  1.1.2    Unofficial contributed version with support for new
+                    MBRs and better MBR recognition. Instead of completing
+                    the work to make this an official release I choose to
+                    merge it into my ongoing work.
+
+4/1  2004  1.1.1    Now compiles even if libintl.h is missing
+                    Replaced the -k switch with -l (--wipelabel) with the
+                    inverted functionality. This functionality was also
+                    implemented for FAT12 and FAT16.
+
+20/9 2003  1.1.0    DOS FAT16 boot record added
+                    NT FAT32 boot record added
+
+23/2 2003  1.0.2    Documentation update, man-page added
+
+9/8 2002   1.0.1    Fixed problem compiling sv_SE.po with newer versions of
+                    msgfmt
+
+4/8 2002   1.0      First public release. Documentation updated with
+                    SourceForge addresses for web and email contact.
+
+30/7 2002  0.9      First stable release

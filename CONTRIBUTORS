@@ -1,0 +1,25 @@
+Henrik Carlqvist		main developer
+Bob Tennent 			helped fixing problems compiling on RedHat 7.3
+Gürkan Sengün                   wrote the original man-page, pointed out bugs
+Ulf Gustafsson			contributed an NT boot record
+Chris Bshaw			tested NT boot record
+Ronan Salmon			debugged NT BR and contributed missing part
+Mike Jones                      added DOS FAT16 support
+Bodo Giannone			patched to compile on systems lacking libintl.h
+Andrew Yeomans			added support for XP/DOS/zero MBRs
+Andree Leidenfrost		helped debugging mkfs.vfat problem
+Matthew Brett			reported 2.6 kernel bug, provided shell-account
+Søren Holm			helped debugging BPB problem with -p switch
+Till Wimmer                     contributed FreeDOS FAT16 & FAT32 boot records
+Alon Bar-Lev                    patched Makefile to support DESTDIR
+Rene Arends                     added support for Win7 and Vista MBRs
+Peter Daum			patch for manually setting nr of heads in BPB
+Pete Batard                     added NTFS Win7 experimental support,
+                                Grub2, Grub4Dos, KolibriOS, ReactOS, Rufus MBR
+                                and experimental large sector support.
+                                Also contributed french translation and man page.
+Sven Köhler                     tested syslinux GPT MBR, updated MBR to 6.02
+Michael Schierl                 contributed and tested Windows PE FAT32 BR
+Mahmoud Al-Qudsi (NeoSmart Technologies)    contributed FreeBSD support
+Jiri B				contributed OpenBSD support
+Jörg Jenderek                   contributed german translation and man-page
