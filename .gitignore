@@ -1,4 +1,15 @@
-### Temporary files to exclude ###
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+
+### Language files ###
+*.mo
+
+### macOS ###
+# General
 .DS_Store
 
 ### Xcode Patch ###
