@@ -117,7 +117,7 @@ clean:
 	$(RM) $(filter-out $(BIN)/CVS,$(wildcard $(BIN)/*))
 
 $(DESTDIR)$(BINDIR)/%: $(BIN)/%
-	install -d $(dir $@)
+	install -d $(@D)
 	install -m 755 $^ $@
 
 $(DESTDIR)$(LOCALEDIR)/%/$(MESSDIR)/$(PACKAGE).mo: $(MO)/%.mo
@@ -125,7 +125,7 @@ $(DESTDIR)$(LOCALEDIR)/%/$(MESSDIR)/$(PACKAGE).mo: $(MO)/%.mo
 	install -m 644 $^ $@
 
 $(DESTDIR)$(MANDIR)/%: $(MAN)/$(dir $(*D))/$(*F)
-	install -d $(dir $@)
+	install -d $(@D)
 	install -m 644 $(MAN)/$(dir $(*D))$(*F) $@
 	gzip -f $@
 
