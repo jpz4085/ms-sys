@@ -23,3 +23,7 @@ Michael Schierl                 contributed and tested Windows PE FAT32 BR
 Mahmoud Al-Qudsi (NeoSmart Technologies)    contributed FreeBSD support
 Jiri B				contributed OpenBSD support
 Jörg Jenderek                   contributed german translation and man-page
+Joseph Zeller            contributed macOS/OS X support and improved FreeBSD and
+                         OpenBSD support, added and tested NT6.0 FAT32 and EXFAT boot
+                         records, patched Makefile and tested install on Mac/BSD/Linux
+                         and updated man pages and po files with new information
