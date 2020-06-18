@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		8C1F7DD0244B924800FB98E7 /* libintl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libintl.h; sourceTree = "<group>"; };
+		8C1F7DD1244B924800FB98E7 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		8C1F7DD2244B924800FB98E7 /* TODO */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		8C1F7DD5244B924800FB98E7 /* ms-sys */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "ms-sys"; sourceTree = "<group>"; };
+		8C1F7DD7244B924800FB98E7 /* br.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = br.d; sourceTree = "<group>"; };
+		8C1F7DD8244B924800FB98E7 /* exfat.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = exfat.d; sourceTree = "<group>"; };
+		8C1F7DD9244B924800FB98E7 /* fat12.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = fat12.d; sourceTree = "<group>"; };
+		8C1F7DDA244B924800FB98E7 /* fat16.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = fat16.d; sourceTree = "<group>"; };
+		8C1F7DDB244B924800FB98E7 /* fat32.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = fat32.d; sourceTree = "<group>"; };
+		8C1F7DDC244B924800FB98E7 /* file.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = file.d; sourceTree = "<group>"; };
+		8C1F7DDD244B924800FB98E7 /* identify.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = identify.d; sourceTree = "<group>"; };
+		8C1F7DDE244B924800FB98E7 /* main.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = main.d; sourceTree = "<group>"; };
+		8C1F7DDF244B924800FB98E7 /* nls.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = nls.d; sourceTree = "<group>"; };
+		8C1F7DE0244B924800FB98E7 /* ntfs.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = ntfs.d; sourceTree = "<group>"; };
+		8C1F7DE1244B924800FB98E7 /* oem_id.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = oem_id.d; sourceTree = "<group>"; };
+		8C1F7DE2244B924800FB98E7 /* partition_info.d */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.dtrace; path = partition_info.d; sourceTree = "<group>"; };
+		8C1F7DE4244B924800FB98E7 /* de.mo */ = {isa = PBXFileReference; lastKnownFileType = file; path = de.mo; sourceTree = "<group>"; };
+		8C1F7DE5244B924800FB98E7 /* fr.mo */ = {isa = PBXFileReference; lastKnownFileType = file; path = fr.mo; sourceTree = "<group>"; };
+		8C1F7DE6244B924800FB98E7 /* sv.mo */ = {isa = PBXFileReference; lastKnownFileType = file; path = sv.mo; sourceTree = "<group>"; };
+		8C1F7DE8244B924800FB98E7 /* br.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = br.o; sourceTree = "<group>"; };
+		8C1F7DE9244B924800FB98E7 /* exfat.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = exfat.o; sourceTree = "<group>"; };
+		8C1F7DEA244B924800FB98E7 /* fat12.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = fat12.o; sourceTree = "<group>"; };
+		8C1F7DEB244B924800FB98E7 /* fat16.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = fat16.o; sourceTree = "<group>"; };
+		8C1F7DEC244B924800FB98E7 /* fat32.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = fat32.o; sourceTree = "<group>"; };
+		8C1F7DED244B924800FB98E7 /* file.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = file.o; sourceTree = "<group>"; };
+		8C1F7DEE244B924800FB98E7 /* identify.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = identify.o; sourceTree = "<group>"; };
+		8C1F7DEF244B924800FB98E7 /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		8C1F7DF0244B924800FB98E7 /* nls.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = nls.o; sourceTree = "<group>"; };
+		8C1F7DF1244B924800FB98E7 /* ntfs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ntfs.o; sourceTree = "<group>"; };
+		8C1F7DF2244B924800FB98E7 /* oem_id.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = oem_id.o; sourceTree = "<group>"; };
+		8C1F7DF3244B924800FB98E7 /* partition_info.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = partition_info.o; sourceTree = "<group>"; };
+		8C1F7DF5244B924800FB98E7 /* br.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br.h; sourceTree = "<group>"; };
+		8C1F7DF6244B924800FB98E7 /* br_exfatnt6_0x78.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_exfatnt6_0x78.h; sourceTree = "<group>"; };
+		8C1F7DF7244B924800FB98E7 /* br_fat12_0x0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat12_0x0.h; sourceTree = "<group>"; };
+		8C1F7DF8244B924800FB98E7 /* br_fat12_0x3e.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat12_0x3e.h; sourceTree = "<group>"; };
+		8C1F7DF9244B924800FB98E7 /* br_fat16_0x0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat16_0x0.h; sourceTree = "<group>"; };
+		8C1F7DFA244B924800FB98E7 /* br_fat16_0x3e.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat16_0x3e.h; sourceTree = "<group>"; };
+		8C1F7DFB244B924800FB98E7 /* br_fat16fd_0x3e.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat16fd_0x3e.h; sourceTree = "<group>"; };
+		8C1F7DFC244B924800FB98E7 /* br_fat16ros_0x0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat16ros_0x0.h; sourceTree = "<group>"; };
+		8C1F7DFD244B924800FB98E7 /* br_fat16ros_0x3e.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat16ros_0x3e.h; sourceTree = "<group>"; };
+		8C1F7DFE244B924800FB98E7 /* br_fat32_0x0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32_0x0.h; sourceTree = "<group>"; };
+		8C1F7DFF244B924800FB98E7 /* br_fat32_0x3f0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32_0x3f0.h; sourceTree = "<group>"; };
+		8C1F7E00244B924800FB98E7 /* br_fat32_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32_0x52.h; sourceTree = "<group>"; };
+		8C1F7E01244B924800FB98E7 /* br_fat32fd_0x3f0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32fd_0x3f0.h; sourceTree = "<group>"; };
+		8C1F7E02244B924800FB98E7 /* br_fat32fd_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32fd_0x52.h; sourceTree = "<group>"; };
+		8C1F7E03244B924800FB98E7 /* br_fat32kos_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32kos_0x52.h; sourceTree = "<group>"; };
+		8C1F7E04244B924800FB98E7 /* br_fat32nt5_0x1800.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt5_0x1800.h; sourceTree = "<group>"; };
+		8C1F7E05244B924800FB98E7 /* br_fat32nt5_0x3f0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt5_0x3f0.h; sourceTree = "<group>"; };
+		8C1F7E06244B924800FB98E7 /* br_fat32nt5_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt5_0x52.h; sourceTree = "<group>"; };
+		8C1F7E07244B924800FB98E7 /* br_fat32nt6_0x0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt6_0x0.h; sourceTree = "<group>"; };
+		8C1F7E08244B924800FB98E7 /* br_fat32nt6_0x1800.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt6_0x1800.h; sourceTree = "<group>"; };
+		8C1F7E09244B924800FB98E7 /* br_fat32nt6_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt6_0x52.h; sourceTree = "<group>"; };
+		8C1F7E0A244B924800FB98E7 /* br_fat32nt6_0x5fe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32nt6_0x5fe.h; sourceTree = "<group>"; };
+		8C1F7E0B244B924800FB98E7 /* br_fat32pe_0x1800.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32pe_0x1800.h; sourceTree = "<group>"; };
+		8C1F7E0C244B924800FB98E7 /* br_fat32pe_0x3f0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32pe_0x3f0.h; sourceTree = "<group>"; };
+		8C1F7E0D244B924800FB98E7 /* br_fat32pe_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32pe_0x52.h; sourceTree = "<group>"; };
+		8C1F7E0E244B924800FB98E7 /* br_fat32ros_0x1c00.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32ros_0x1c00.h; sourceTree = "<group>"; };
+		8C1F7E0F244B924800FB98E7 /* br_fat32ros_0x3f0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32ros_0x3f0.h; sourceTree = "<group>"; };
+		8C1F7E10244B924800FB98E7 /* br_fat32ros_0x52.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_fat32ros_0x52.h; sourceTree = "<group>"; };
+		8C1F7E11244B924800FB98E7 /* br_ntfs_0x0.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_ntfs_0x0.h; sourceTree = "<group>"; };
+		8C1F7E12244B924800FB98E7 /* br_ntfs_0x54.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = br_ntfs_0x54.h; sourceTree = "<group>"; };
+		8C1F7E13244B924800FB98E7 /* exfat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exfat.h; sourceTree = "<group>"; };
+		8C1F7E14244B924800FB98E7 /* fat12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fat12.h; sourceTree = "<group>"; };
+		8C1F7E15244B924800FB98E7 /* fat16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fat16.h; sourceTree = "<group>"; };
+		8C1F7E16244B924800FB98E7 /* fat32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fat32.h; sourceTree = "<group>"; };
+		8C1F7E17244B924800FB98E7 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		8C1F7E18244B924800FB98E7 /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identify.h; sourceTree = "<group>"; };
+		8C1F7E19244B924800FB98E7 /* label_11_char.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = label_11_char.h; sourceTree = "<group>"; };
+		8C1F7E1A244B924800FB98E7 /* mbr_2000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_2000.h; sourceTree = "<group>"; };
+		8C1F7E1B244B924800FB98E7 /* mbr_95b.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_95b.h; sourceTree = "<group>"; };
+		8C1F7E1C244B924800FB98E7 /* mbr_dos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_dos.h; sourceTree = "<group>"; };
+		8C1F7E1D244B924800FB98E7 /* mbr_dos_f2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_dos_f2.h; sourceTree = "<group>"; };
+		8C1F7E1E244B924800FB98E7 /* mbr_gpt_syslinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_gpt_syslinux.h; sourceTree = "<group>"; };
+		8C1F7E1F244B924800FB98E7 /* mbr_grub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_grub.h; sourceTree = "<group>"; };
+		8C1F7E20244B924800FB98E7 /* mbr_grub2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_grub2.h; sourceTree = "<group>"; };
+		8C1F7E21244B924800FB98E7 /* mbr_kolibri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_kolibri.h; sourceTree = "<group>"; };
+		8C1F7E22244B924800FB98E7 /* mbr_reactos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_reactos.h; sourceTree = "<group>"; };
+		8C1F7E23244B924800FB98E7 /* mbr_rufus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_rufus.h; sourceTree = "<group>"; };
+		8C1F7E24244B924800FB98E7 /* mbr_syslinux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_syslinux.h; sourceTree = "<group>"; };
+		8C1F7E25244B924800FB98E7 /* mbr_vista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_vista.h; sourceTree = "<group>"; };
+		8C1F7E26244B924800FB98E7 /* mbr_win7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_win7.h; sourceTree = "<group>"; };
+		8C1F7E27244B924800FB98E7 /* mbr_zero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mbr_zero.h; sourceTree = "<group>"; };
+		8C1F7E28244B924800FB98E7 /* nls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nls.h; sourceTree = "<group>"; };
+		8C1F7E29244B924800FB98E7 /* ntfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ntfs.h; sourceTree = "<group>"; };
+		8C1F7E2A244B924800FB98E7 /* oem_id.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oem_id.h; sourceTree = "<group>"; };
+		8C1F7E2B244B924800FB98E7 /* partition_info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = partition_info.h; sourceTree = "<group>"; };
+		8C1F7E2C244B924800FB98E7 /* CONTRIBUTORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CONTRIBUTORS; sourceTree = "<group>"; };
+		8C1F7E2E244B924800FB98E7 /* de.po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = de.po; sourceTree = "<group>"; };
+		8C1F7E2F244B924800FB98E7 /* fr.po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fr.po; sourceTree = "<group>"; };
+		8C1F7E30244B924800FB98E7 /* sv.po */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sv.po; sourceTree = "<group>"; };
+		8C1F7E32244B924800FB98E7 /* br.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = br.c; sourceTree = "<group>"; };
+		8C1F7E33244B924800FB98E7 /* exfat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exfat.c; sourceTree = "<group>"; };
+		8C1F7E34244B924800FB98E7 /* fat12.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat12.c; sourceTree = "<group>"; };
+		8C1F7E35244B924800FB98E7 /* fat16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat16.c; sourceTree = "<group>"; };
+		8C1F7E36244B924800FB98E7 /* fat32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fat32.c; sourceTree = "<group>"; };
+		8C1F7E37244B924800FB98E7 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		8C1F7E38244B924800FB98E7 /* identify.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = identify.c; sourceTree = "<group>"; };
+		8C1F7E39244B924800FB98E7 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		8C1F7E3A244B924800FB98E7 /* nls.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nls.c; sourceTree = "<group>"; };
+		8C1F7E3B244B924800FB98E7 /* ntfs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ntfs.c; sourceTree = "<group>"; };
+		8C1F7E3C244B924800FB98E7 /* oem_id.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = oem_id.c; sourceTree = "<group>"; };
+		8C1F7E3D244B924800FB98E7 /* partition_info.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = partition_info.c; sourceTree = "<group>"; };
+		8C1F7E40244B924800FB98E7 /* ms-sys.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = "ms-sys.1"; sourceTree = "<group>"; };
+		8C1F7E42244B924800FB98E7 /* ms-sys.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = "ms-sys.1"; sourceTree = "<group>"; };
+		8C1F7E43244B924800FB98E7 /* ms-sys.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = "ms-sys.1"; sourceTree = "<group>"; };
+		8C1F7E45244B924800FB98E7 /* ms-sys.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = "ms-sys.1"; sourceTree = "<group>"; };
+		8C1F7E46244B924800FB98E7 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		8C1F7E47244B924800FB98E7 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		8C1F7E48244B924800FB98E7 /* CHANGELOG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG; sourceTree = "<group>"; };
+		8C1F7E49244B924800FB98E7 /* FAQ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FAQ; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8C1F7DC4244B91BF00FB98E7 = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E48244B924800FB98E7 /* CHANGELOG */,
+				8C1F7E2C244B924800FB98E7 /* CONTRIBUTORS */,
+				8C1F7E47244B924800FB98E7 /* COPYING */,
+				8C1F7E49244B924800FB98E7 /* FAQ */,
+				8C1F7DD1244B924800FB98E7 /* Makefile */,
+				8C1F7E46244B924800FB98E7 /* README */,
+				8C1F7DD2244B924800FB98E7 /* TODO */,
+				8C1F7DD3244B924800FB98E7 /* build */,
+				8C1F7DF4244B924800FB98E7 /* inc */,
+				8C1F7DCF244B924800FB98E7 /* include-fallback */,
+				8C1F7E3E244B924800FB98E7 /* man */,
+				8C1F7E2D244B924800FB98E7 /* po */,
+				8C1F7E31244B924800FB98E7 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		8C1F7DCF244B924800FB98E7 /* include-fallback */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DD0244B924800FB98E7 /* libintl.h */,
+			);
+			path = "include-fallback";
+			sourceTree = "<group>";
+		};
+		8C1F7DD3244B924800FB98E7 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DD4244B924800FB98E7 /* bin */,
+				8C1F7DD6244B924800FB98E7 /* dep */,
+				8C1F7DE3244B924800FB98E7 /* mo */,
+				8C1F7DE7244B924800FB98E7 /* obj */,
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		8C1F7DD4244B924800FB98E7 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DD5244B924800FB98E7 /* ms-sys */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		8C1F7DD6244B924800FB98E7 /* dep */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DD7244B924800FB98E7 /* br.d */,
+				8C1F7DD8244B924800FB98E7 /* exfat.d */,
+				8C1F7DD9244B924800FB98E7 /* fat12.d */,
+				8C1F7DDA244B924800FB98E7 /* fat16.d */,
+				8C1F7DDB244B924800FB98E7 /* fat32.d */,
+				8C1F7DDC244B924800FB98E7 /* file.d */,
+				8C1F7DDD244B924800FB98E7 /* identify.d */,
+				8C1F7DDE244B924800FB98E7 /* main.d */,
+				8C1F7DDF244B924800FB98E7 /* nls.d */,
+				8C1F7DE0244B924800FB98E7 /* ntfs.d */,
+				8C1F7DE1244B924800FB98E7 /* oem_id.d */,
+				8C1F7DE2244B924800FB98E7 /* partition_info.d */,
+			);
+			path = dep;
+			sourceTree = "<group>";
+		};
+		8C1F7DE3244B924800FB98E7 /* mo */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DE4244B924800FB98E7 /* de.mo */,
+				8C1F7DE5244B924800FB98E7 /* fr.mo */,
+				8C1F7DE6244B924800FB98E7 /* sv.mo */,
+			);
+			path = mo;
+			sourceTree = "<group>";
+		};
+		8C1F7DE7244B924800FB98E7 /* obj */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DE8244B924800FB98E7 /* br.o */,
+				8C1F7DE9244B924800FB98E7 /* exfat.o */,
+				8C1F7DEA244B924800FB98E7 /* fat12.o */,
+				8C1F7DEB244B924800FB98E7 /* fat16.o */,
+				8C1F7DEC244B924800FB98E7 /* fat32.o */,
+				8C1F7DED244B924800FB98E7 /* file.o */,
+				8C1F7DEE244B924800FB98E7 /* identify.o */,
+				8C1F7DEF244B924800FB98E7 /* main.o */,
+				8C1F7DF0244B924800FB98E7 /* nls.o */,
+				8C1F7DF1244B924800FB98E7 /* ntfs.o */,
+				8C1F7DF2244B924800FB98E7 /* oem_id.o */,
+				8C1F7DF3244B924800FB98E7 /* partition_info.o */,
+			);
+			path = obj;
+			sourceTree = "<group>";
+		};
+		8C1F7DF4244B924800FB98E7 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7DF5244B924800FB98E7 /* br.h */,
+				8C1F7DF6244B924800FB98E7 /* br_exfatnt6_0x78.h */,
+				8C1F7DF7244B924800FB98E7 /* br_fat12_0x0.h */,
+				8C1F7DF8244B924800FB98E7 /* br_fat12_0x3e.h */,
+				8C1F7DF9244B924800FB98E7 /* br_fat16_0x0.h */,
+				8C1F7DFA244B924800FB98E7 /* br_fat16_0x3e.h */,
+				8C1F7DFB244B924800FB98E7 /* br_fat16fd_0x3e.h */,
+				8C1F7DFC244B924800FB98E7 /* br_fat16ros_0x0.h */,
+				8C1F7DFD244B924800FB98E7 /* br_fat16ros_0x3e.h */,
+				8C1F7DFE244B924800FB98E7 /* br_fat32_0x0.h */,
+				8C1F7DFF244B924800FB98E7 /* br_fat32_0x3f0.h */,
+				8C1F7E00244B924800FB98E7 /* br_fat32_0x52.h */,
+				8C1F7E01244B924800FB98E7 /* br_fat32fd_0x3f0.h */,
+				8C1F7E02244B924800FB98E7 /* br_fat32fd_0x52.h */,
+				8C1F7E03244B924800FB98E7 /* br_fat32kos_0x52.h */,
+				8C1F7E04244B924800FB98E7 /* br_fat32nt5_0x1800.h */,
+				8C1F7E05244B924800FB98E7 /* br_fat32nt5_0x3f0.h */,
+				8C1F7E06244B924800FB98E7 /* br_fat32nt5_0x52.h */,
+				8C1F7E07244B924800FB98E7 /* br_fat32nt6_0x0.h */,
+				8C1F7E08244B924800FB98E7 /* br_fat32nt6_0x1800.h */,
+				8C1F7E09244B924800FB98E7 /* br_fat32nt6_0x52.h */,
+				8C1F7E0A244B924800FB98E7 /* br_fat32nt6_0x5fe.h */,
+				8C1F7E0B244B924800FB98E7 /* br_fat32pe_0x1800.h */,
+				8C1F7E0C244B924800FB98E7 /* br_fat32pe_0x3f0.h */,
+				8C1F7E0D244B924800FB98E7 /* br_fat32pe_0x52.h */,
+				8C1F7E0E244B924800FB98E7 /* br_fat32ros_0x1c00.h */,
+				8C1F7E0F244B924800FB98E7 /* br_fat32ros_0x3f0.h */,
+				8C1F7E10244B924800FB98E7 /* br_fat32ros_0x52.h */,
+				8C1F7E11244B924800FB98E7 /* br_ntfs_0x0.h */,
+				8C1F7E12244B924800FB98E7 /* br_ntfs_0x54.h */,
+				8C1F7E13244B924800FB98E7 /* exfat.h */,
+				8C1F7E14244B924800FB98E7 /* fat12.h */,
+				8C1F7E15244B924800FB98E7 /* fat16.h */,
+				8C1F7E16244B924800FB98E7 /* fat32.h */,
+				8C1F7E17244B924800FB98E7 /* file.h */,
+				8C1F7E18244B924800FB98E7 /* identify.h */,
+				8C1F7E19244B924800FB98E7 /* label_11_char.h */,
+				8C1F7E1A244B924800FB98E7 /* mbr_2000.h */,
+				8C1F7E1B244B924800FB98E7 /* mbr_95b.h */,
+				8C1F7E1C244B924800FB98E7 /* mbr_dos.h */,
+				8C1F7E1D244B924800FB98E7 /* mbr_dos_f2.h */,
+				8C1F7E1E244B924800FB98E7 /* mbr_gpt_syslinux.h */,
+				8C1F7E1F244B924800FB98E7 /* mbr_grub.h */,
+				8C1F7E20244B924800FB98E7 /* mbr_grub2.h */,
+				8C1F7E21244B924800FB98E7 /* mbr_kolibri.h */,
+				8C1F7E22244B924800FB98E7 /* mbr_reactos.h */,
+				8C1F7E23244B924800FB98E7 /* mbr_rufus.h */,
+				8C1F7E24244B924800FB98E7 /* mbr_syslinux.h */,
+				8C1F7E25244B924800FB98E7 /* mbr_vista.h */,
+				8C1F7E26244B924800FB98E7 /* mbr_win7.h */,
+				8C1F7E27244B924800FB98E7 /* mbr_zero.h */,
+				8C1F7E28244B924800FB98E7 /* nls.h */,
+				8C1F7E29244B924800FB98E7 /* ntfs.h */,
+				8C1F7E2A244B924800FB98E7 /* oem_id.h */,
+				8C1F7E2B244B924800FB98E7 /* partition_info.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		8C1F7E2D244B924800FB98E7 /* po */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E2E244B924800FB98E7 /* de.po */,
+				8C1F7E2F244B924800FB98E7 /* fr.po */,
+				8C1F7E30244B924800FB98E7 /* sv.po */,
+			);
+			path = po;
+			sourceTree = "<group>";
+		};
+		8C1F7E31244B924800FB98E7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E32244B924800FB98E7 /* br.c */,
+				8C1F7E33244B924800FB98E7 /* exfat.c */,
+				8C1F7E34244B924800FB98E7 /* fat12.c */,
+				8C1F7E35244B924800FB98E7 /* fat16.c */,
+				8C1F7E36244B924800FB98E7 /* fat32.c */,
+				8C1F7E37244B924800FB98E7 /* file.c */,
+				8C1F7E38244B924800FB98E7 /* identify.c */,
+				8C1F7E39244B924800FB98E7 /* main.c */,
+				8C1F7E3A244B924800FB98E7 /* nls.c */,
+				8C1F7E3B244B924800FB98E7 /* ntfs.c */,
+				8C1F7E3C244B924800FB98E7 /* oem_id.c */,
+				8C1F7E3D244B924800FB98E7 /* partition_info.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8C1F7E3E244B924800FB98E7 /* man */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E3F244B924800FB98E7 /* de */,
+				8C1F7E41244B924800FB98E7 /* fr */,
+				8C1F7E43244B924800FB98E7 /* ms-sys.1 */,
+				8C1F7E44244B924800FB98E7 /* sv */,
+			);
+			path = man;
+			sourceTree = "<group>";
+		};
+		8C1F7E3F244B924800FB98E7 /* de */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E40244B924800FB98E7 /* ms-sys.1 */,
+			);
+			path = de;
+			sourceTree = "<group>";
+		};
+		8C1F7E41244B924800FB98E7 /* fr */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E42244B924800FB98E7 /* ms-sys.1 */,
+			);
+			path = fr;
+			sourceTree = "<group>";
+		};
+		8C1F7E44244B924800FB98E7 /* sv */ = {
+			isa = PBXGroup;
+			children = (
+				8C1F7E45244B924800FB98E7 /* ms-sys.1 */,
+			);
+			path = sv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8C1F7DC9244B91BF00FB98E7 /* release */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = 8C1F7DCC244B91BF00FB98E7 /* Build configuration list for PBXLegacyTarget "release" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/path/to/ms-sys";
+			dependencies = (
+			);
+			name = release;
+			passBuildSettingsInEnvironment = 1;
+			productName = "ms-sys";
+		};
+		8C1F7E4A244B92D300FB98E7 /* mrproper */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = mrproper;
+			buildConfigurationList = 8C1F7E4B244B92D300FB98E7 /* Build configuration list for PBXLegacyTarget "mrproper" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/path/to/ms-sys";
+			dependencies = (
+			);
+			name = mrproper;
+			passBuildSettingsInEnvironment = 1;
+			productName = mrproper;
+		};
+		8C1F7E50244B94C800FB98E7 /* debug */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = debug;
+			buildConfigurationList = 8C1F7E51244B94C800FB98E7 /* Build configuration list for PBXLegacyTarget "debug" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/path/to/ms-sys";
+			dependencies = (
+			);
+			name = debug;
+			passBuildSettingsInEnvironment = 1;
+			productName = debug;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		8C1F7DC5244B91BF00FB98E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = jpz4085;
+				TargetAttributes = {
+					8C1F7DC9244B91BF00FB98E7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C1F7E4A244B92D300FB98E7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					8C1F7E50244B94C800FB98E7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C1F7DC8244B91BF00FB98E7 /* Build configuration list for PBXProject "ms-sys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C1F7DC4244B91BF00FB98E7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C1F7DC9244B91BF00FB98E7 /* release */,
+				8C1F7E4A244B92D300FB98E7 /* mrproper */,
+				8C1F7E50244B94C800FB98E7 /* debug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		8C1F7DCA244B91BF00FB98E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		8C1F7DCB244B91BF00FB98E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		8C1F7DCD244B91BF00FB98E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "${PATH}:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1F7DCE244B91BF00FB98E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "${PATH}:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C1F7E4C244B92D300FB98E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1F7E4D244B92D300FB98E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C1F7E52244B94C800FB98E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "${PATH}:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C1F7E53244B94C800FB98E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "${PATH}:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C1F7DC8244B91BF00FB98E7 /* Build configuration list for PBXProject "ms-sys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F7DCA244B91BF00FB98E7 /* Debug */,
+				8C1F7DCB244B91BF00FB98E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1F7DCC244B91BF00FB98E7 /* Build configuration list for PBXLegacyTarget "release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F7DCD244B91BF00FB98E7 /* Debug */,
+				8C1F7DCE244B91BF00FB98E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1F7E4B244B92D300FB98E7 /* Build configuration list for PBXLegacyTarget "mrproper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F7E4C244B92D300FB98E7 /* Debug */,
+				8C1F7E4D244B92D300FB98E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C1F7E51244B94C800FB98E7 /* Build configuration list for PBXLegacyTarget "debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C1F7E52244B94C800FB98E7 /* Debug */,
+				8C1F7E53244B94C800FB98E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C1F7DC5244B91BF00FB98E7 /* Project object */;
+}
