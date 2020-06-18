@@ -345,12 +345,12 @@
 /* Begin PBXLegacyTarget section */
 		8C1F7DC9244B91BF00FB98E7 /* release */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "";
+			buildArgumentsString = "-j8";
 			buildConfigurationList = 8C1F7DCC244B91BF00FB98E7 /* Build configuration list for PBXLegacyTarget "release" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "/path/to/ms-sys";
+			buildWorkingDirectory = "/Users/jpz/Development/Xcode Projects/ms-sys-2.6.2";
 			dependencies = (
 			);
 			name = release;
@@ -364,7 +364,7 @@
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "/path/to/ms-sys";
+			buildWorkingDirectory = "/Users/jpz/Development/Xcode Projects/ms-sys-2.6.2";
 			dependencies = (
 			);
 			name = mrproper;
@@ -373,12 +373,12 @@
 		};
 		8C1F7E50244B94C800FB98E7 /* debug */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = debug;
+			buildArgumentsString = "-j8 debug";
 			buildConfigurationList = 8C1F7E51244B94C800FB98E7 /* Build configuration list for PBXLegacyTarget "debug" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
-			buildWorkingDirectory = "/path/to/ms-sys";
+			buildWorkingDirectory = "/Users/jpz/Development/Xcode Projects/ms-sys-2.6.2";
 			dependencies = (
 			);
 			name = debug;
