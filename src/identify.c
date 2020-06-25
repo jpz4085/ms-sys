@@ -677,7 +677,7 @@ void diagnose(FILE *fp, const char *szPath)
       else if(entire_fat_32_nt5_br_matches(fp))
       {
 	 printf(
-	   _("it is exactly the kind of FAT32 NT5.0 boot record this program\n"));
+	   _("it is exactly the kind of FAT32 NT5.2 boot record this program\n"));
 	 printf(
 	    _("would create with the switch -2 on a FAT32 partition.\n"));
       }

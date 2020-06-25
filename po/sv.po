@@ -235,8 +235,8 @@ msgstr "skulle skriva med flaggan -3 på en FAT32 partition.\n"
 
 #: src/identify.c:680
 #, c-format
-msgid "it is exactly the kind of FAT32 NT5.0 boot record this program\n"
-msgstr "det är precis en likadan FAT32 NT5.0 boot record som detta program\n"
+msgid "it is exactly the kind of FAT32 NT5.2 boot record this program\n"
+msgstr "det är precis en likadan FAT32 NT5.2 boot record som detta program\n"
 
 #: src/identify.c:682
 #, c-format
@@ -762,13 +762,13 @@ msgstr "Misslyckades med att skriva FAT16 ReactOS boot record till %s\n"
 
 #: src/main.c:450
 #, c-format
-msgid "FAT32 NT5.0 boot record successfully written to %s\n"
-msgstr "FAT32 NT5.0 boot record skrevs till %s\n"
+msgid "FAT32 NT5.2 boot record successfully written to %s\n"
+msgstr "FAT32 NT5.2 boot record skrevs till %s\n"
 
 #: src/main.c:454
 #, c-format
-msgid "Failed writing FAT32 NT5.0 boot record to %s\n"
-msgstr "Misslyckades med att skriva FAT32 NT5.0 boot record till %s\n"
+msgid "Failed writing FAT32 NT5.2 boot record to %s\n"
+msgstr "Misslyckades med att skriva FAT32 NT5.2 boot record till %s\n"
 
 #: src/main.c:463
 #, c-format
@@ -889,9 +889,9 @@ msgstr "    -1, --fat12     Skriv en FAT12 diskett boot record till enheten\n"
 #: src/main.c:614
 #, fuzzy, c-format
 msgid ""
-"    -2, --fat32nt5  Write a FAT32 partition NT5.0 boot record to device\n"
+"    -2, --fat32nt5  Write a FAT32 partition NT5.2 boot record to device\n"
 msgstr ""
-"    -2, --fat32nt5   Skriv en FAT32 partition NT5.0 boot record till "
+"    -2, --fat32nt5   Skriv en FAT32 partition NT5.2 boot record till "
 "enheten\n"
 
 #: src/main.c:616

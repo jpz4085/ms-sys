@@ -237,9 +237,9 @@ msgstr "mit dem Schalter -3 auf einer FAT32-Partition erstellen würde.\n"
 
 #: src/identify.c:680
 #, c-format
-msgid "it is exactly the kind of FAT32 NT5.0 boot record this program\n"
+msgid "it is exactly the kind of FAT32 NT5.2 boot record this program\n"
 msgstr ""
-"Dies ist genau die Art von FAT32 NT5.0 Bootrecord, die dieses Programm\n"
+"Dies ist genau die Art von FAT32 NT5.2 Bootrecord, die dieses Programm\n"
 
 #: src/identify.c:682
 #, c-format
@@ -777,13 +777,13 @@ msgstr "Fehler beim Schreiben des FAT16 ReactOS Bootrecords auf %s\n"
 
 #: src/main.c:450
 #, c-format
-msgid "FAT32 NT5.0 boot record successfully written to %s\n"
-msgstr "FAT32 NT5.0 Bootrecord geschrieben auf %s\n"
+msgid "FAT32 NT5.2 boot record successfully written to %s\n"
+msgstr "FAT32 NT5.2 Bootrecord geschrieben auf %s\n"
 
 #: src/main.c:454
 #, c-format
-msgid "Failed writing FAT32 NT5.0 boot record to %s\n"
-msgstr "Fehler beim Schreiben des FAT32 NT5.0 Bootrecords auf %s\n"
+msgid "Failed writing FAT32 NT5.2 boot record to %s\n"
+msgstr "Fehler beim Schreiben des FAT32 NT5.2 Bootrecords auf %s\n"
 
 #: src/main.c:463
 #, c-format
@@ -905,9 +905,9 @@ msgstr ""
 #: src/main.c:614
 #, fuzzy, c-format
 msgid ""
-"    -2, --fat32nt5  Write a FAT32 partition NT5.0 boot record to device\n"
+"    -2, --fat32nt5  Write a FAT32 partition NT5.2 boot record to device\n"
 msgstr ""
-"    -2, --fat32nt5   Schreibt einen FAT32 Partition NT5.0 Bootrecord auf "
+"    -2, --fat32nt5   Schreibt einen FAT32 Partition NT5.2 Bootrecord auf "
 "Gerät\n"
 
 #: src/main.c:616

@@ -447,11 +447,11 @@ int main(int argc, char **argv)
       case FAT32NT5_BR:
       {
 	 if(write_fat_32_nt5_br(fp, bKeepLabel))
-	    printf(_("FAT32 NT5.0 boot record successfully written to %s\n"),
+	    printf(_("FAT32 NT5.2 boot record successfully written to %s\n"),
 		   argv[argc-1]);
 	 else
 	 {
-	    printf(_("Failed writing FAT32 NT5.0 boot record to %s\n"),
+	    printf(_("Failed writing FAT32 NT5.2 boot record to %s\n"),
 		   argv[argc-1]);
 	    iRet = 1;
 	 }
@@ -611,7 +611,7 @@ void print_help(const char *szCommand)
    printf(
       _("    -1, --fat12     Write a FAT12 floppy boot record to device\n"));
    printf(
-      _("    -2, --fat32nt5  Write a FAT32 partition NT5.0 boot record to device\n"));
+      _("    -2, --fat32nt5  Write a FAT32 partition NT5.2 boot record to device\n"));
    printf(
       _("    -8, --fat32nt6  Write a FAT32 partition NT6.0 boot record to device\n"));
    printf(

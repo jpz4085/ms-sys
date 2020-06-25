@@ -243,8 +243,8 @@ msgstr "programme créerait avec le paramètre -3 sur une partition FAT32.\n"
 
 #: src/identify.c:680
 #, c-format
-msgid "it is exactly the kind of FAT32 NT5.0 boot record this program\n"
-msgstr "c'est exactement le type de secteur de démarrage FAT32 NT5.0 que ce\n"
+msgid "it is exactly the kind of FAT32 NT5.2 boot record this program\n"
+msgstr "c'est exactement le type de secteur de démarrage FAT32 NT5.2 que ce\n"
 
 #: src/identify.c:682
 #, c-format
@@ -802,13 +802,13 @@ msgstr ""
 
 #: src/main.c:450
 #, c-format
-msgid "FAT32 NT5.0 boot record successfully written to %s\n"
-msgstr "Secteur de démarrage FAT32 NT5.0 écrit avec succès sur %s\n"
+msgid "FAT32 NT5.2 boot record successfully written to %s\n"
+msgstr "Secteur de démarrage FAT32 NT5.2 écrit avec succès sur %s\n"
 
 #: src/main.c:454
 #, c-format
-msgid "Failed writing FAT32 NT5.0 boot record to %s\n"
-msgstr "Erreur lors de l'écriture du secteur de démarrage FAT32 NT5.0 sur %s\n"
+msgid "Failed writing FAT32 NT5.2 boot record to %s\n"
+msgstr "Erreur lors de l'écriture du secteur de démarrage FAT32 NT5.2 sur %s\n"
 
 #: src/main.c:463
 #, c-format
@@ -947,10 +947,10 @@ msgstr ""
 #: src/main.c:614
 #, fuzzy, c-format
 msgid ""
-"    -2, --fat32nt5  Write a FAT32 partition NT5.0 boot record to device\n"
+"    -2, --fat32nt5  Write a FAT32 partition NT5.2 boot record to device\n"
 msgstr ""
 "    -2, --fat32nt5   Écrit un secteur de démarrage pour partition FAT32 de "
-"type NT5.0\n"
+"type NT5.2\n"
 
 #: src/main.c:616
 #, fuzzy, c-format
