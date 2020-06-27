@@ -1,15 +1,16 @@
 1. General
 ----------
 
-This program is used to create Microsoft compatible boot records. It is able
-to do the same as Microsoft "fdisk /mbr" to a hard disk. It is also able to
-do the same as Microsoft "sys d:" to a floppy or FAT partition except that
-it does not copy any system files, only the boot record is written.
+This program is used to create Microsoft compatible and other boot records.
+It is able to do the same as Microsoft "fdisk /mbr" and "sys d:" to a fixed
+or removable disk under Win9x and "bootsect /nt## d: /mbr" under NT5/6 except
+that it does not copy any system files, only the boot record is written.
+
 Specifications of boot records is taken from
 http://www.geocities.com/thestarman3/asm/mbr/MBR_in_detail.htm
 
-The program is useful when using Linux to restore a backup of a reference
-Microsoft Windows installation.
+The program is useful when restoring a backup of a reference Microsoft Windows
+installation or creating legacy bootable media from the supported platforms.
 
 Author of this program is Henrik Carlqvist (henca@users.SourceForge.net), it
 is available for download from http://ms-sys.sourceforge.net/
