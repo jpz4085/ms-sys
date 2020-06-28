@@ -66,6 +66,8 @@ int write_partition_start_sector_number(FILE *fp)
         return write_data(fp, 0x1c, aucBuf, 4);
     }
     if(is_exfat_fs(fp)) {
+        uint64_t blksize = get_sector_size(fp);
+        uint64_t offset = (blksize * 12) + 64;
         unsigned char aucBuf[8];
         aucBuf[0] = (unsigned char)(l & 0xff);
         aucBuf[1] = (unsigned char)((l & 0xff00) >> 8);
@@ -75,7 +77,10 @@ int write_partition_start_sector_number(FILE *fp)
         aucBuf[5] = (unsigned char)((l & 0xff0000000000) >> 40);
         aucBuf[6] = (unsigned char)((l & 0xff000000000000) >> 48);
         aucBuf[7] = (unsigned char)((l & 0xff00000000000000) >> 56);
-        return write_data(fp, 0x40, aucBuf, 8);
+        return (/* Update PartitionOffset of main VBR/BPB */
+                write_data(fp, 0x40, aucBuf, 8) &&
+                /* Update PartitionOffset of backup VBR/BPB */
+                write_data(fp, offset, aucBuf, 8));
     } else {
         return 0;
     }
@@ -97,7 +102,12 @@ int write_partition_physical_disk_drive_id_fat32(FILE *fp)
 
 int write_partition_physical_disk_drive_id_exfat(FILE *fp)
 {
+   uint64_t blksize = get_sector_size(fp);
+   uint64_t offset = (blksize * 12) + 111;
    unsigned char ucId = 0x80; /* C: */
    
-   return write_data(fp, 0x6f, &ucId, 1);
+   return (/* Update DriveSelect of main VBR/BPB */
+           write_data(fp, 0x6f, &ucId, 1) &&
+           /* Update DriveSelect of backup VBR/BPB */
+           write_data(fp, offset, &ucId, 1));
 } /* write_partition_physical_disk_drive_id_exfat */
