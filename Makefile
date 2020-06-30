@@ -127,7 +127,7 @@ $(DESTDIR)$(LOCALEDIR)/%/$(MESSDIR)/$(PACKAGE).mo: $(MO)/%.mo
 $(DESTDIR)$(MANDIR)/%: $(MAN)/$(dir $(*D))/$(*F)
 	install -d $(@D)
 	install -m 644 $(MAN)/$(dir $(*D))$(*F) $@
-	gzip -f $@
+	gzip --no-name -f $@
 
 #$(DESTDIR)$(MANDIR)/%: $(MAN)/$(*F)
 #	echo t: $<
