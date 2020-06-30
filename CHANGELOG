@@ -1,5 +1,13 @@
 Date       Version  Comment
 ---------------------------------------------------------------------------
+30/6  2020 2.7.1    Compressing man-page with gzip --no-name for
+                    reproducibility. Updated NTLDR bootstrap code and program
+                    messages/text files to NT5.2 from from Windows 7/8/10.
+                    Update EXFAT backup VBR/BPB when writing partition information
+                    to preserve consistency across the entire boot record.
+
+28/6  2020 2.7.0    Official development release with 2.6.x patches.
+
 28/4  2020 2.6.2    Improved partition device and start sector detection on
                     FreeBSD. Implemented full support for OpenBSD by adding
                     missing code for disk and partition information detection
