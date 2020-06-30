@@ -31,7 +31,7 @@
 #include "nls.h"
 #include "partition_info.h"
 
-#define VERSION "2.6.2"
+#define VERSION "2.7.1"
 
 void print_help(const char *szCommand);
 void print_version(void);
@@ -694,7 +694,7 @@ void print_version(void)
 {
    printf(_("ms-sys version %s\n"), VERSION);
    printf(_("Written by Henrik Carlqvist\n\n"));
-   printf(_("Copyright (C) 2009-2016 Free Software Foundation, Inc.\n"));
+   printf(_("Copyright (C) 2009-2020 Free Software Foundation, Inc.\n"));
    printf(_("This is free software; see the source for copying conditions.  There is NO\n"));
    printf(_("warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"));
 } /* print_version */
