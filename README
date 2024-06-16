@@ -7,7 +7,7 @@ or removable disk under Win9x and "bootsect /nt## d: /mbr" under NT5/6 except
 that it does not copy any system files, only the boot record is written.
 
 Specifications of boot records is taken from
-http://www.geocities.com/thestarman3/asm/mbr/MBR_in_detail.htm
+https://thestarman.pcministry.com/asm/mbr/index.html
 
 The program is useful when restoring a backup of a reference Microsoft Windows
 installation or creating legacy bootable media from the supported platforms.
